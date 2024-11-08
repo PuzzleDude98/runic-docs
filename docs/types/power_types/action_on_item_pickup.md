@@ -78,7 +78,7 @@ This example will recover 1 heart to the entity upon the entity picking up an it
 					"type": "origins:target_action",
 					"action": {
 						"type": "origins:execute_command",
-						"command": "tellraw @a [{\"selector\": \"@s\", \"color\": \"yellow\"}, {\"text\": \"has picked up an item throwned by \", \"color\": \"green\"}, {\"selector\": \"@e[tag = item_thrower]\"}]"
+						"command": "tellraw @a [{\"selector\": \"@s\", \"color\": \"yellow\"}, {\"text\": \"has picked up an item thrown by \", \"color\": \"green\"}, {\"selector\": \"@e[tag = item_thrower]\"}]"
 					}
 				},
 				{
