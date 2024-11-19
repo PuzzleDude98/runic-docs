@@ -11,6 +11,8 @@ Much of these docs are unchanged and still hold information for Origins. This is
 
 Visit [CurseForge](https://www.curseforge.com/minecraft/mc-mods/origins) or [Modrinth](https://modrinth.com/mod/origins) to learn more about the Origins mod!
 
+> While all information on these docs is currently theoretical, information stated in these blocks should be noted as even more so. It is tentative ideas that may not have any significance in the final version.
+
 ## General information
 
 - Most powers are now configurable via data packs. You can also add new powers, as well as new origins, via data packs. This wiki should help you as a reference for everything important, and will maybe contain a few useful tutorials in the future.
