@@ -1,13 +1,13 @@
 ---
-title: Defining a Power
-date: 2021-05-02
+title: Defining a Rune
+date: 11-19-2024
 ---
 
-# Defining a Power in JSON
+# Defining a Rune in JSON
 
-Powers are used by Origins to define functionality. Each Origin is a set of these powers. Since Origins v0.4.0, powers are data-driven, allowing you to change and add powers via datapacks.
+Runes are the driving force of runics. They can be connected into rune matrices, a set runes that work together. RUnes are data-driven, represented with json behind the scenes and visually represented in game (eventually).
 
-In order for the game to load powers, they have to go in the correct path of the data pack. The full path of a power file should look like this: `data/<namespace>/powers/<power_id>.json`.
+> When testing with datapacks, in order for the game to load runes, they have to go in the correct path of the data pack. The full path of a rune file should look like this: `data/<namespace>/powers/<power_id>.json`.
 
 Generally, all powers support the fields found on this page: [Power JSON](../../json/power.md). For all other fields which define more specific functionality of a power, you will have to look at the page corresponding to the power type you want to use. A list of power types can be found here: [Power Types](../../types/power_types.md)
 
