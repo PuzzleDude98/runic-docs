@@ -1,15 +1,15 @@
 ---
 title: Home
-date: 2021-04-04
+date: 11-19-2024
 ---
 
-# Welcome to the Origins documentation!
+# Welcome to the Runics documentation!
 
-This page will hopefully contain all the information you need to make your own data packs for the Origins mod.
+Runics is a theoretical magic system that has not been programmed yet. This documentation is a fork of Origins mod docs, which runics is currently based off of.
 
-Origins is a Minecraft mod developed for Fabric. It allows players to choose an Origin at the beginning of the game, which grants them different benefits and drawbacks.
+Much of these docs are unchanged and still hold information for Origins. This is all a work in progress, pages will be updated as I figure out more about this mod.
 
-Visit [CurseForge](https://www.curseforge.com/minecraft/mc-mods/origins) or [Modrinth](https://modrinth.com/mod/origins) to download the mod!
+Visit [CurseForge](https://www.curseforge.com/minecraft/mc-mods/origins) or [Modrinth](https://modrinth.com/mod/origins) to learn more about the Origins mod!
 
 ## General information
 
