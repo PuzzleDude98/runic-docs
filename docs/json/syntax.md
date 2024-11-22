@@ -13,13 +13,13 @@ This page basically describes how to translate JSON to runes.
 
 Element  | JSON Syntax | Rune Syntax | Usagee
 -------|-----------|-----------|-------------
-`Object` | `{}` | Hexagon | Everything inside the brackets is instead places inside the hexagon
-`Key` | `"key":` | Line with a circle in the middle | Attaches value to the inner edge of its object. The key type is contained within the circle.
-`Value` | `:???` | Varies | A container attached to the end of a key. Can be an object, array, string, or other data type.
-`Array` | `tbd` | tbd | 
-`String` | `tbd` | tbd | 
-`Number` | `tbd` | tbd | 
-`Boolean` | `tbd` | tbd | 
+Object | `{}` | Hexagon | Everything inside the brackets is instead places inside the hexagon
+Key | `"key":` | Line with a circle in the middle | Attaches value to the inner edge of its object. The key type is contained within the circle.
+Value | `:???` | Varies | A container attached to the end of a key. Can be an object, array, string, or other data type.
+Array | `tbd` | tbd | 
+String | `tbd` | tbd | 
+Number | `tbd` | tbd | 
+Boolean | `tbd` | tbd | 
 
 
 ### Examples
