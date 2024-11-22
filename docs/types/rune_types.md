@@ -11,7 +11,8 @@ a `type` field in the JSON. Which type a rune is defines which other fields it r
 
 !!! note
 
-    Unless stated otherwise, each rune type supports a `condition` field that can check for [Entity Condition Types](entity_condition_types.md). See [Power JSON](../json/power.md) for more details.
+    Unless stated otherwise, each rune type supports a `block_condition` field that can check for [Block Condition Types](block_condition_types.md). See [Rune JSON](../json/rune.md) for more details.
+    This may also be the case for block_actions, depending on how development goes.
 
 
 ### Regular types

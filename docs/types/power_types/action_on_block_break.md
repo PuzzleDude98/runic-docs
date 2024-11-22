@@ -1,15 +1,15 @@
 ---
-title: Action On Block Break (Power Type)
+title: Action On Block Break (Rune Type)
 date: 11-22-2024
 ---
 
 # Action On Block Break
 
-[Power Type](../power_types.md)
+[Rune Type](../rune_types.md)
 
 Executes an [Entity Action Type](../entity_action_types.md) or a [Block Action Type](../block_action_types.md) when the player breaks the block containing the rune.
 
-Type ID: `origins:action_on_block_break`
+Type ID: `runics:action_on_block_break`
 
 
 ### Fields

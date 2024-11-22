@@ -1,15 +1,15 @@
 ---
-title: Action On Death (Power Type)
-date: 2023-10-09
+title: Action On Death (Rune Type)
+date: 11-22-2024
 ---
 
 # Action On Death
 
-[Power Type](../power_types.md)
+[Rune Type](../rune_types.md)
 
-Executes an action when the entity that has the power dies.
+Executes an action when an entity dies within a specified radius of the rune.
 
-Type ID: `origins:action_on_death`
+Type ID: `runics:action_on_death`
 
 !!! note
 
@@ -21,8 +21,11 @@ Type ID: `origins:action_on_death`
 Field | Type | Default | Description
 ------|------|---------|-------------
 `bientity_action` | [Bi-entity Action Type](../bientity_action_types.md) | | The action to be executed on either or both the '**actor**' and '**target**' entities.
+`block_action` | [Block Action Type](../block_action_types.md) | | The action to be executed on the block that contains the rune.
 `bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, the specified action will only be executed if this condition is fulfilled by either or both '**actor**' and '**target**' entities.
 `damage_condition` | [Damage Condition Type](../damage_condition_types.md) | _optional_ | If specified, the specified action will only be executed if this condition is fulfilled by the damage dealt by the '**actor**' entity.
+`radius` | [Integer](../data_types/integer.md) | `16` | Determines the radius of the area.
+`shape` | [Shape](../data_types/shape.md) | `"cube"` | Determines the shape of the area.
 
 
 ### Examples
