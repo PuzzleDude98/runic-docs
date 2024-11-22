@@ -3,7 +3,7 @@ nav:
     - Home: index.md
     - Datapack Guides:
         - Defining an Origin: guides/data/define_origin.md
-        - Defining a Power: guides/data/define_power.md
+        - Defining a Rune: guides/data/define_rune.md
         - Origin conditions in layers: guides/data/origin_conditions_in_layers.md
     - Add-on Guides:
         - Workspace Setup: guides/addon/workspace_setup.md
@@ -17,7 +17,7 @@ nav:
     - General Types:
         - Badge Types: types/badge_types.md
         - Data Types: types/data_types.md
-        - Power Types: types/power_types.md
+        - Rune Types: types/rune_types.md
     - Action Types:
         - Bi-entity Action Types: types/bientity_action_types.md
         - Block Action Types: types/block_action_types.md
