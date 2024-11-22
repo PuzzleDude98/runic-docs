@@ -9,6 +9,8 @@ Runics is a theoretical magic system that has not been programmed yet. This docu
 
 Much of these docs are unchanged and still hold information for Origins. This is all a work in progress, pages will be updated as I figure out more about this mod.
 
+namespace = `runics`
+
 Visit [CurseForge](https://www.curseforge.com/minecraft/mc-mods/origins) or [Modrinth](https://modrinth.com/mod/origins) to learn more about the Origins mod!
 
 > While all information on these docs is currently theoretical, information stated in these blocks should be noted as even more so. they are tentative ideas that may not have any significance in the final version.

@@ -1,34 +1,29 @@
 ---
-title: Action On Being Used (Power Type)
-date: 2021-10-06
+title: Action On Being Used (Rune Type)
+date: 11-22-2024
 ---
 
 # Action On Being Used
 
-[Power Type](../power_types.md)
+[Rune Type](../rune_types.md)
 
-Executes an action when a player "uses" (right-clicks) the entity that has the power.
+Executes an action when a player "uses" (right-clicks) the rune.
 
-Type ID: `origins:action_on_being_used`
-
-!!! note
-
-    In the context of this power type, the '**actor**' entity is the entity that did the "usage" action (right-click) while the '**target**' entity is the entity that has the power.
-
+Type ID: `runics:action_on_being_used`
 
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`bientity_action` | [Bi-entity Action Type](../bientity_action_types.md) | _optional_ | If specified, this action will be executed on either or both the '**actor**' and '**target**' entities.
-`held_item_action`| [Item Action Type](../item_action_types.md) | _optional_ | If specified, this action will be executed on the item used by the '**actor**' entity for right-clicking the '**target**' entity.
+`entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed the '**actor**' entity.
+`held_item_action`| [Item Action Type](../item_action_types.md) | _optional_ | If specified, this action will be executed on the item used by the '**actor**' entity for right-clicking the rune.
 `result_item_action` | [Item Action Type](../item_action_types.md) | _optional_ | If specified, this action will be executed on the item that is given to the '**actor**' entity.
-`bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, the specified actions will only be executed if this condition is fulfilled by either or both '**actor**' and '**target**' entities.
-`item_condition` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, the specified actions will only be executed if this condition is fulfilled by the item used by the '**actor**' entity for right-clicking the '**target**' entity.
+`entity_condition` | [Entity Condition Type](../entity_condition_types.md) | _optional_ | If specified, the specified actions will only be executed if this condition is fulfilled the '**actor**' entity.
+`item_condition` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, the specified actions will only be executed if this condition is fulfilled by the item used by the '**actor**' entity for right-clicking the rune.
 `hands`| [Array](../data_types/array.md) of [Strings](../data_types/string.md) | `["off_hand", "main_hand"]` | Determines if the power should be activated if the '**actor**' entity used the specified hand(s). Accepts `"off_hand"`, `"main_hand"` or both
 `result_stack`| [Item Stack](../data_types/item_stack.md) | _optional_ | If specified, this item stack will be given to the '**actor**' entity.
 `action_result` | [Action Result](../data_types/action_result.md) | `"success"` | Determines the result of the 'use' action.
-`priority` | [Integer](../data_types/integer.md) | `0` | Determines the execution priority of the power.
+`priority` | [Integer](../data_types/integer.md) | `0` | Determines the execution priority of the rune.
 
 
 ### Examples
