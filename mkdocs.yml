@@ -13,7 +13,7 @@ nav:
         - Global Power Set JSON: json/global_power_set.md
         - Origin JSON: json/origin.md
         - Origin Layer JSON: json/origin_layer.md
-        - Power JSON: json/power.md
+        - Rune JSON: json/rune.md
     - General Types:
         - Badge Types: types/badge_types.md
         - Data Types: types/data_types.md
