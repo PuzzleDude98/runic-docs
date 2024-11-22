@@ -1,6 +1,6 @@
 ---
 title: Defining a Rune
-date: 11-19-2024
+date: 2024-11-19
 ---
 
 # Defining a Rune in JSON

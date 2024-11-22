@@ -1,6 +1,6 @@
 ---
 title: Home
-date: 11-19-2024
+date: 2024-11-19
 ---
 
 # Welcome to the Runics documentation!

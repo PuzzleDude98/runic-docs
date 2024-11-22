@@ -1,6 +1,6 @@
 ---
 title: Action On Being Used (Rune Type)
-date: 11-22-2024
+date: 2024-11-22
 ---
 
 # Action On Being Used
