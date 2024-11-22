@@ -1,13 +1,13 @@
 ---
 title: Action On Block Break (Power Type)
-date: 2021-04-04
+date: 11-22-2024
 ---
 
 # Action On Block Break
 
 [Power Type](../power_types.md)
 
-Executes an [Entity Action Type](../entity_action_types.md) or a [Block Action Type](../block_action_types.md) when the player breaks a block.
+Executes an [Entity Action Type](../entity_action_types.md) or a [Block Action Type](../block_action_types.md) when the player breaks the block containing the rune.
 
 Type ID: `origins:action_on_block_break`
 
@@ -16,9 +16,9 @@ Type ID: `origins:action_on_block_break`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when a block is broken.
-`block_action` | [Block Action Type](../block_action_types.md) | _optional_ | If specified, this action will be executed on the block that is broken.
-`block_condition` | [Block Condition Type](../block_condition_types.md) | _optional_ | If set, the specified actions will only trigger when this block condition is met by the broken block.
+`entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the '**actor**' player when the block is broken.
+`block_action` | [Block Action Type](../block_action_types.md) | _optional_ | If specified, this action will be executed on the '**target**' block.
+`block_condition` | [Block Condition Type](../block_condition_types.md) | _optional_ | If set, the specified actions will only trigger when this block condition is met by the '**target**' block.
 `only_when_harvested` | [Boolean](../data_types/boolean.md) | `true` | If this is true, the specified actions will only execute when the player succeeds in harvesting the block (e.g. they will not trigger when stone is broken by hand).
 
 
