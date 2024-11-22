@@ -85,6 +85,6 @@ Hopefully this tutorial has shed some light into the process of creating powers,
 
 ### Related pages
 
-* [Power Types](../../types/power_types.md)
+* [Rune Types](../../types/rune_types.md)
 * [Power JSON](../../json/power.md)
 * [Origin JSON](../../json/origin.md)
