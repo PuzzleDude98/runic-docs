@@ -1,17 +1,17 @@
 ---
-title: Power Types
-date: 2021-07-06
+title: Rune Types
+date: 11/22/2024
 ---
 
-# Power Types
+# Rune Types
 
-Power Types are what grants functionality to your origins! Each power has a type, specified with
-a `type` field in the JSON. Which type a power is defines which other fields it requires and supports.
+Rune Types are what grants functionality to your spells! Each rune has a type, specified with
+a `type` field in the JSON. Which type a rune is defines which other fields it requires and supports.
 
 
 !!! note
 
-    Unless stated otherwise, each power type supports a `condition` field that can check for [Entity Condition Types](entity_condition_types.md). See [Power JSON](../json/power.md) for more details.
+    Unless stated otherwise, each rune type supports a `condition` field that can check for [Entity Condition Types](entity_condition_types.md). See [Power JSON](../json/power.md) for more details.
 
 
 ### Regular types
