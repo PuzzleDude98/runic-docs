@@ -19,8 +19,9 @@ Field  | Type | Default | Description
 `type` | [Identifier](../types/data_types/identifier.md) | | The namespace and ID of the desired [RUne Type](../types/rune_types.md).
 `name` | [Text Component](../types/data_types/text_component.md) | _optional_ | The display name of the rune.
 `description` | [Text Component](../types/data_types/text_component.md) | _optional_ | The description of the rune.
-`hidden` | [Boolean](../types/data_types/boolean.md) | `false` | If set to true, this rune will not be displayed in the rune list of the origin.
-`condition` | [Entity Condition](../types/entity_condition_types.md) | _optional_ | If set, this rune will only be active when the player with this rune fulfills the condition.
+`hidden` | [Boolean](../types/data_types/boolean.md) | `false` | If set to true, this rune will not be displayed in the rune list of a rune matrix(?).
+`block_condition` | [Block Condition](../types/block_condition_types.md) | _optional_ | If set, this rune will only have an effect when the block with this rune fulfills the condition.
+`entity_condition` | [Entity Condition](../types/entity_condition_types.md) | _optional_ | If set, this rune will only have an effect when the entity activating this rune fulfills the condition.
 `loading_priority` | [Integer](../types/data_types/integer.md) | `0` | Specifies when this rune is loaded. Higher numbers mean it's loaded later, which means it will override those with lower loading priorities which share the same ID.
 `badges` | [Array](../types/data_types/array.md) of [Badges](badge.md) | _optional_ | If set, it will display icon(s) after the name of the rune.
 
