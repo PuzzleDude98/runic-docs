@@ -14,6 +14,7 @@ nav:
         - Origin JSON: json/origin.md
         - Origin Layer JSON: json/origin_layer.md
         - Rune JSON: json/rune.md
+        - JSON Syntax: json/syntax.md
     - General Types:
         - Badge Types: types/badge_types.md
         - Data Types: types/data_types.md
