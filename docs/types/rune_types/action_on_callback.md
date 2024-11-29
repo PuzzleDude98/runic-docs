@@ -1,32 +1,33 @@
 ---
-title: Action On Callback (Power Type)
-date: 2021-05-25
+title: Action On Callback (Rune Type)
+date: 2024-11-25
 ---
 
 # Action On Callback
 
-[Power Type](../power_types.md)
+[Rune Type](../rune_types.md)
 
 Execute [Entity Action Types](../entity_action_types.md) depending on the context.
 
-Type ID: `origins:action_on_callback`
+Type ID: `runics:action_on_callback`
 
 !!! note
 
-    Callbacks may refer to when the player joins the world, when the player leaves the world, when the player respawns or when the player chooses an origin on all available origin layers.
+    Callbacks may refer to when the player joins the world, when the player leaves the world, or when the player respawns within a radius of the rune.
 
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_action_chosen` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player after the player chooses an origin on all available origin layers.
-`execute_chosen_when_orb` | [Boolean](../data_types/boolean.md) | `true` | Determines whether the action in `entity_action_chosen` should be executed if the player also used an Orb of Origin item for choosing an origin.
-`entity_action_gained` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is added to the entity for the first time.
-`entity_action_lost` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is removed from the entity permanently.
-`entity_action_added` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is added to the entity. Joining a world adds each power back.
-`entity_action_removed` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is removed from the entity and right after the player respawns. Leaving a world removes each power.
-`entity_action_respawned` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player right after the player respawns. This action will be executed after the action in `entity_action_removed`.
+`entity_action_joined` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when joining a world.
+`entity_action_left` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when leaving the world.
+`entity_action_respawned` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player right after they respawns.
+`block_action_joined` | [Block Action Type](../block_action_types.md) | _optional_ | If specified, this action will be executed on the rune when a player is joining a world.
+`block_action_left` | [Block Action Type](../block_action_types.md) | _optional_ | If specified, this action will be executed on the rune when a player leaves the world.
+`block_action_respawned` | [Block Action Type](../block_action_types.md) | _optional_ | If specified, this action will be executed on the rune right after a player respawns.
+`radius` | [Integer](../data_types/integer.md) | `16` | Determines the radius of the area.
+`shape` | [Shape](../data_types/shape.md) | `"cube"` | Determines the shape of the area.
 
 
 ### Examples
