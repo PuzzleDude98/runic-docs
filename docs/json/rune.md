@@ -7,7 +7,7 @@ date: 2024-11-22
 
 This is the format of a JSON file describing a rune.
 
-Rune JSON files need to be placed inside the `data/<namespace>/runes` folder of your datapack. The said files can be referenced as `namespace:path/to/rune` (`data/namespace/powers/path/to/rune.json`) in the `runes` field of an [Rune Matrix (JSON)](origin.md).
+Rune JSON files need to be placed inside the `data/<namespace>/runes` folder of your datapack. These files can be referenced as `namespace:path/to/rune` (`data/namespace/powers/path/to/rune.json`) in the `runes` field of an [Rune Matrix (JSON)](origin.md).
 
 Depending on the chosen `type`, rune JSONs have more required and optional fields. See the corresponding rune type page for a description of what those fields are.
 
