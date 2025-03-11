@@ -1,0 +1,63 @@
+---
+title: Type Name (Rune Types)
+date: 2025-03-08
+---
+
+# Type Name
+
+[Rune Type](../rune_types.md)
+
+Description of type
+
+Type ID: `runics:type`
+
+
+### Key Terms
+Key terms used when describing fields
+
+| Term | Type | Definition |
+| ---- | ---- | ---------- |
+|      |      |            |
+|      |      |            |
+
+
+### Fields
+
+| Field                | Type                                                                  | Default                                            | Description                                                                                                                                                                                                   |
+| -------------------- | --------------------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `entity_action`      | [Entity Action Type](../entity_action_types.md)                       | _optional_                                         | If specified, this entity action type will be executed if all conditions are met.                                                                                                                             |
+| `block_action`       | [Block Action Type](../block_action_types.md)                         | _optional_                                         | If specified, the used block will run this action if all conditions are met.                                                                                                                                  |
+| `block_condition`    | [Block Condition Type](../block_condition_types.md)                   | _optional_                                         | If specified, only execute the specified actions if this condition is fulfilled by the used block.                                                                                                            |
+| `item_condition`     | [Item Condition Type](../item_condition_types.md)                     | _optional_                                         | If specified, only execute the specified actions if this condition is fulfilled by the item in the 'actor' (the player that has the power) entity's specified hand(s) determined by the `hands` string field. |
+| `directions`         | [Array](../data_types/array.md) of [Strings](../data_types/string.md) | `["north", "east", "south", "west", "up", "down"]` | If specified, only execute the specified actions if you used the specified face of the block.                                                                                                                 |
+| `hands`              | [Array](../data_types/array.md) of [Strings](../data_types/string.md) | `["off_hand", "main_hand"]`                        | Determines if the power should be activated if the player used the specified hand(s). Accepts `"off_hand"`, `"main_hand"` or both.                                                                            |
+| `result_stack`       | [Item Stack](../data_types/item_stack.md)                             | _optional_                                         | If specified, gives the item to the 'actor' (the player that has the power) entity.                                                                                                                           |
+| `held_item_action`   | [Item Action Type](../item_action_types.md)                           | _optional_                                         | If specified, this action will be executed on the item used for right-clicking the 'target' entity in the specified hand(s) determined by the `hands` string field.                                           |
+| `result_item_action` | [Item Action Type](../item_action_types.md)                           | _optional_                                         | If specified, this action will be executed on the item that is given to the 'actor' (the player that has the power) entity.                                                                                   |
+| `action_result`      | [Action Result](../data_types/action_result.md)                       | `"success"`                                        | Determines the result of the 'use' action.                                                                                                                                                                    |
+
+
+### Examples
+
+```json
+{
+	"type": "origins:action_on_block_use",
+	"block_action": {
+		"type": "origins:set_block",
+		"block": "minecraft:gold_block"
+	},
+	"block_condition": {
+		"type": "origins:block",
+		"block": "minecraft:iron_block"
+	},
+	"directions": [
+		"up",
+		"down"
+	],
+	"condition": {
+		"type": "origins:sprinting"
+	}
+}
+```
+
+Example Description

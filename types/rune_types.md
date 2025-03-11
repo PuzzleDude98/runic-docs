@@ -1,0 +1,146 @@
+---
+title: Rune Types
+date: 2024-11-22
+---
+
+# Rune Types
+
+Rune Types are what grants functionality to your spells! Each rune has a type, specified with
+a `type` field in the JSON. Which type a rune is defines which other fields it requires and supports.
+
+
+!!! note
+
+    Unless stated otherwise, each rune type supports a `block_condition` field that can check for [Block Condition Types](block_condition_types.md). See [Rune JSON](../json/rune.md) for more details.
+    This may also be the case for block_actions, depending on how development goes.
+
+
+### Regular types
+
+* [Attribute Modify Transfer](rune_types/attribute_modify_transfer.md)
+* [Attribute](rune_types/attribute.md)
+* [Burn](rune_types/burn.md)
+* [Climbing](rune_types/climbing.md)
+* [Conditioned Attribute](rune_types/conditioned_attribute.md)
+* [Conditioned Restrict Armor](rune_types/conditioned_restrict_armor.md)
+* [Cooldown](rune_types/cooldown.md)
+* [Creative Flight](rune_types/creative_flight.md)
+* [Damage Over Time](rune_types/damage_over_time.md)
+* [Disable Regen](rune_types/disable_regen.md)
+* [Edible Item](rune_types/edible_item.md)
+* [Effect Immunity](rune_types/effect_immunity.md)
+* [Elytra Flight](rune_types/elytra_flight.md)
+* [Entity Glow](rune_types/entity_glow.md)
+* [Entity Group](rune_types/entity_group.md)
+* [Entity Set](rune_types/entity_set.md)
+* [Exhaust](rune_types/exhaust.md)
+* [Fire Immunity](rune_types/fire_immunity.md)
+* [Fire Projectile](rune_types/fire_projectile.md)
+* [Freeze](rune_types/freeze.md)
+* [Game Event Listener](rune_types/game_event_listener.md)
+* [Grounded](rune_types/grounded.md)
+* [Ignore Water](rune_types/ignore_water.md)
+* [Inventory](rune_types/inventory.md)
+* [Invisibility](rune_types/invisibility.md)
+* [Invulnerability](rune_types/invulnerability.md)
+* [Item On Item](rune_types/item_on_item.md)
+* [Keep Inventory](rune_types/keep_inventory.md)
+* [Launch](rune_types/launch.md)
+* [Lava Vision](rune_types/lava_vision.md)
+* [Model Color](rune_types/model_color.md)
+* [Multiple](rune_types/multiple.md)
+* [Night Vision](rune_types/night_vision.md)
+* [Overlay](rune_types/overlay.md)
+* [Particle](rune_types/particle.md)
+* [Phasing](rune_types/phasing.md)
+* [Recipe](rune_types/recipe.md)
+* [Replace Loot Table](rune_types/replace_loot_table.md)
+* [Resource](rune_types/resource.md)
+* [Restrict Armor](rune_types/restrict_armor.md)
+* [Self Glow](rune_types/self_glow.md)
+* [Shader](rune_types/shader.md)
+* [Shaking](rune_types/shaking.md)
+* [Simple](rune_types/simple.md)
+* [Stacking Status Effect](rune_types/stacking_status_effect.md)
+* [Starting Equipment](rune_types/starting_equipment.md)
+* [Status Bar Texture](rune_types/status_bar_texture.md)
+* [Swimming](rune_types/swimming.md)
+* [Toggle Night Vision](rune_types/toggle_night_vision.md)
+* [Toggle](rune_types/toggle.md)
+* [Tooltip](rune_types/tooltip.md)
+* [Walk On Fluid](rune_types/walk_on_fluid.md)
+
+
+### Action-related
+
+* [Action On Being Used](rune_types/action_on_being_used.md)
+* [Action On Block Break](rune_types/action_on_block_break.md)
+* [Action On Block Place](rune_types/action_on_block_place.md)
+* [Action On Rune Use](action_on_rune_use.md)
+* [Action On Callback](rune_types/action_on_callback.md)
+* [Action On Death](rune_types/action_on_death.md)
+* [Action On Entity Use](rune_types/action_on_entity_use.md)
+* [Action On Hit](rune_types/action_on_hit.md)
+* [Action On Item Pickup](rune_types/action_on_item_pickup.md)
+* [Action On Item Use](rune_types/action_on_item_use.md)
+* [Action On Land](rune_types/action_on_land.md)
+* [Action On Wake Up](rune_types/action_on_wake_up.md)
+* [Action Over Time](rune_types/action_over_time.md)
+* [Action When Damage Taken](rune_types/action_when_damage_taken.md)
+* [Action When Hit](rune_types/action_when_hit.md)
+* [Active Self](rune_types/active_self.md)
+* [Attacker Action When Hit](rune_types/attacker_action_when_hit.md)
+* [Self Action On Hit](rune_types/self_action_on_hit.md)
+* [Self Action On Kill](rune_types/self_action_on_kill.md)
+* [Self Action When Hit](rune_types/self_action_when_hit.md)
+* [Target Action On Hit](rune_types/target_action_on_hit.md)
+
+
+### Modifying types
+
+* [Modify Air Speed](rune_types/modify_air_speed.md)
+* [Modify Attribute](rune_types/modify_attribute.md)
+* [Modify Block Render](rune_types/modify_block_render.md)
+* [Modify Break Speed](rune_types/modify_break_speed.md)
+* [Modify Camera Submersion](rune_types/modify_camera_submersion.md)
+* [Modify Crafting](rune_types/modify_crafting.md)
+* [Modify Damage Dealt](rune_types/modify_damage_dealt.md)
+* [Modify Damage Taken](rune_types/modify_damage_taken.md)
+* [Modify Enchantment Level](rune_types/modify_enchantment_level.md)
+* [Modify Exhaustion](rune_types/modify_exhaustion.md)
+* [Modify Falling](rune_types/modify_falling.md)
+* [Modify Fluid Render](rune_types/modify_fluid_render.md)
+* [Modify Food](rune_types/modify_food.md)
+* [Modify Grindstone](rune_types/modify_grindstone.md)
+* [Modify Harvest](rune_types/modify_harvest.md)
+* [Modify Healing](rune_types/modify_healing.md)
+* [Modify Insomnia Ticks](rune_types/modify_insomnia_ticks.md)
+* [Modify Jump](rune_types/modify_jump.md)
+* [Modify Lava Speed](rune_types/modify_lava_speed.md)
+* [Modify Player Spawn](rune_types/modify_player_spawn.md)
+* [Modify Projectile Damage](rune_types/modify_projectile_damage.md)
+* [Modify Slipperiness](rune_types/modify_slipperiness.md)
+* [Modify Status Effect Amplifier](rune_types/modify_status_effect_amplifier.md)
+* [Modify Status Effect Duration](rune_types/modify_status_effect_duration.md)
+* [Modify Swim Speed](rune_types/modify_swim_speed.md)
+* [Modify Velocity](rune_types/modify_velocity.md)
+* [Modify XP Gain](rune_types/modify_xp_gain.md)
+
+
+### Preventing types
+
+* [Prevent Being Used](rune_types/prevent_being_used.md)
+* [Prevent Block Place](rune_types/prevent_block_place.md)
+* [Prevent Block Selection](rune_types/prevent_block_selection.md)
+* [Prevent Block Use](rune_types/prevent_block_use.md)
+* [Prevent Death](rune_types/prevent_death.md)
+* [Prevent Elytra Flight](rune_types/prevent_elytra_flight.md)
+* [Prevent Entity Collision](rune_types/prevent_entity_collision.md)
+* [Prevent Entity Render](rune_types/prevent_entity_render.md)
+* [Prevent Entity Use](rune_types/prevent_entity_use.md)
+* [Prevent Feature Render](rune_types/prevent_feature_render.md)
+* [Prevent Game Event](rune_types/prevent_game_event.md)
+* [Prevent Item Pickup](rune_types/prevent_item_pickup.md)
+* [Prevent Item Use](rune_types/prevent_item_use.md)
+* [Prevent Sleep](rune_types/prevent_sleep.md)
+* [Prevent Sprinting](rune_types/prevent_sprinting.md)
