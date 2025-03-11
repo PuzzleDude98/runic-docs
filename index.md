@@ -15,4 +15,4 @@ Runics is a minecraft magic mod based around JSON structures. The mod is current
 
 * [Example data packs](https://github.com/apace100/origins-example-packs)
 * [Minecraft Wiki: Data Pack](https://minecraft.wiki/w/Data_Pack)
-* [Minecraft Wiki: Creating a data pack](https://minecraft.wiki/w/Tutorials/Creating_a_data_pack
+* [Minecraft Wiki: Creating a data pack](https://minecraft.wiki/w/Tutorials/Creating_a_data_pack)
