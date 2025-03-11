@@ -7,7 +7,7 @@ date: 2025-03-08
 
 [Rune Type](../rune_types.md)
 
-Executes a [Block Action Type](../block_action_types) and/or [Item Action Types](../item_action_types.md) when the player that has the power "uses" (right-clicks) a block.
+Executes a [Block Action Type](../block_action_types.md) and/or [Item Action Types](../item_action_types.md) when the player that has the power "uses" (right-clicks) a block.
 
 Type ID: `runics:action_on_block_use`
 
