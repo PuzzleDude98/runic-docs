@@ -9,7 +9,7 @@ date: 2025-03-08
 
 Checks if the entity is currently burning.
 
-Type ID: `runics:on_fire`
+Type ID: `on_fire`
 
 
 ### Fields

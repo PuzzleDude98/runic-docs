@@ -9,7 +9,7 @@ date: 2025-03-08
 
 Summons an explosion with a specific explosion power.
 
-Type ID: `runics:explode`
+Type ID: `explode`
 
 !!! note
 
