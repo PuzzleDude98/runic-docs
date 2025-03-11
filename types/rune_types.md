@@ -1,6 +1,6 @@
 ---
 title: Rune Types
-date: 2024-11-22
+date: 2025-03-10
 ---
 
 # Rune Types
@@ -9,11 +9,8 @@ Rune Types are what grants functionality to your spells! Each rune has a type, s
 a `type` field in the JSON. Which type a rune is defines which other fields it requires and supports.
 
 
-!!! note
 
-    Unless stated otherwise, each rune type supports a `block_condition` field that can check for [Block Condition Types](block_condition_types.md). See [Rune JSON](../json/rune.md) for more details.
-    This may also be the case for block_actions, depending on how development goes.
-
+>Unless stated otherwise, each rune type supports a `condition` field that can check for a [Block Condition](types/block_condition_types.md)
 
 ### Regular types
 
