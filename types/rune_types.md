@@ -73,7 +73,7 @@ a `type` field in the JSON. The required fields in a rune depend on what type it
 * [Action On Being Used](rune_types/action_on_being_used.md)
 * [Action On Block Break](rune_types/action_on_block_break.md)
 * [Action On Block Place](rune_types/action_on_block_place.md)
-* [Action On Rune Use](types/rune_types/action_on_rune_use.md)
+* [action_on_rune_use](rune_types/action_on_rune_use)
 * [Action On Callback](rune_types/action_on_callback.md)
 * [Action On Death](rune_types/action_on_death.md)
 * [Action On Entity Use](rune_types/action_on_entity_use.md)
