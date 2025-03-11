@@ -6,7 +6,7 @@ date: 2025-03-10
 # Rune Types
 
 Rune Types are what grants functionality to your spells! Each rune has a type, specified with
-a `type` field in the JSON. Which type a rune is defines which other fields it requires and supports.
+a `type` field in the JSON. The required fields in a rune depend on what type it is.
 
 
 
