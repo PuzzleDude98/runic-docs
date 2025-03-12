@@ -33,7 +33,7 @@ Type ID: `add_velocity`
 
 ```json
 "entity_action": {
-    "type": "origins:add_velocity",
+    "type": "add_velocity",
     "y": 2
 }
 ```

@@ -21,6 +21,6 @@ _None._
 
 ```json
 "condition": {
-    "type": "runics:on_fire"
+    "type": "on_fire"
 }
 ```

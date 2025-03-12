@@ -31,7 +31,7 @@ Type ID: `explode`
 
 ```json
 "block_action": {
-    "type": "runics:explode",
+    "type": ":explode",
     "power": 5,
     "destruction_type": "none",
     "create_fire": false
@@ -44,15 +44,15 @@ This example will summon an explosion at the position of where the block action 
 
 ```json
 "block_action": {
-    "type": "runics:explode",
+    "type": "explode",
     "power": 5,
     "destruction_type": "break",
     "destructible": {
-        "type": "apoli:in_tag",
-        "tag": "minecraft:impermeable"
+        "type": "block",
+        "block": "minecraft:dirt"
     },
     "create_fire": false
 }
 ```
 
-This example will summon an explosion at the position of where the block action was invoked that would only destroy blocks that are in the `#minecraft:impermeable` (`data/minecraft/tags/blocks/impermeable.json`) block tag.
+This example will summon an explosion at the position of where the block action was invoked that would only destroy dirt blocks.

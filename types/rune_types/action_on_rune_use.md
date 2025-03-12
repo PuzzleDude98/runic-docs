@@ -40,15 +40,15 @@ Key terms used when describing fields
 
 ```json
 {
-    "type": "runics:action_on_rune_use",
+    "type": "action_on_rune_use",
     "block_action": {
-        "type": "runics:explode",
+        "type": "explode",
         "power": 5,
         "destruction_type": "none",
         "create_fire": false
     },
     "entity_condition": {
-        "type": "runics:on_fire"
+        "type": "on_fire"
     }
 }
 ```
