@@ -12,14 +12,23 @@
     code, pre {
         background-color: #1e1e1e;
         color: #dcdcdc;
+        padding: 0.2em 0.4em;
+        border-radius: 4px;
     }
 
-    table {
-        border-color: #444;
+    /* Tables */
+    .markdown-body table {
+        background-color: #1e1e1e;
+        border-collapse: collapse;
     }
 
-    th, td {
+    .markdown-body th, .markdown-body td {
         border: 1px solid #444;
+        padding: 8px 12px;
+    }
+
+    .markdown-body tr:nth-child(even) {
+        background-color: #2a2a2a;
     }
 
     .markdown-body blockquote {
