@@ -1,6 +1,6 @@
 ---
 title: Add Velocity (Entity Action Type)
-date: 2025-03-10
+date: 2025-03-17
 ---
 
 # Add Velocity
@@ -11,9 +11,8 @@ Adds or sets velocity towards a specific direction.
 
 Type ID: `add_velocity`
 
-!!! note
 
-    If the entity action type behaves unexpectedly, try setting either the `client` (should always work) or `server` (might not work) boolean fields to `false`. [Here are some examples.](https://github.com/apace100/apoli/blob/3115c41ea4390ad9ced3ae5be86151131accc36f/testdata/apoli/powers/add_velocity.json)
+> If the entity action type behaves unexpectedly, try setting either the `client` (should always work) or `server` (might not work) boolean fields to `false`. [Here are some examples.](https://github.com/apace100/apoli/blob/3115c41ea4390ad9ced3ae5be86151131accc36f/testdata/apoli/powers/add_velocity.json) 
 
 
 ### Fields

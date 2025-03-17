@@ -1,6 +1,6 @@
 ---
 title: Explode (Block Action Type)
-date: 2025-03-08
+date: 2025-03-17
 ---
 
 # Explode
@@ -11,9 +11,7 @@ Summons an explosion with a specific explosion power.
 
 Type ID: `explode`
 
-!!! note
-
-    See [Minecraft Wiki: Explosion (Causes)](https://minecraft.wiki/w/Explosion#Causes) for a list of power values that are used in vanilla.
+>See [Minecraft Wiki: Explosion (Causes)](https://minecraft.wiki/w/Explosion#Causes) for a list of power values that are used in vanilla.
 
 
 ### Fields

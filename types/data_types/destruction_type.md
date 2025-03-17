@@ -1,6 +1,6 @@
 ---
 title: Destruction Type (Data Type)
-date: 2025-03-08
+date: 2025-03-17
 ---
 
 #	Destruction Type
@@ -10,7 +10,7 @@ date: 2025-03-08
 A [String][string] used to determine the effect of an explosion to the terrain.
 
 
-###	Values
+### Values
 
   Value      |  Description                                                     
 -------------|------------------------------------------------------------------
