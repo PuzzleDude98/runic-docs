@@ -10,7 +10,7 @@ a `type` field in the JSON. The required fields in a rune depend on what type it
 
 
 
->Unless stated otherwise, each rune type supports a `condition` field that can check for a [Block Condition](types/block_condition_types.md)
+>Unless stated otherwise, each rune type supports a `condition` field that can check for a [Block Condition](block_condition_types.md)
 
 ### Regular types
 
