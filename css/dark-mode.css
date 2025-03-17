@@ -1,0 +1,24 @@
+/* dark-mode.css */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #e0e0e0;
+    }
+
+    a {
+        color: #bb86fc;
+    }
+
+    code, pre {
+        background-color: #1e1e1e;
+        color: #dcdcdc;
+    }
+
+    table {
+        border-color: #444;
+    }
+
+    th, td {
+        border: 1px solid #444;
+    }
+}
