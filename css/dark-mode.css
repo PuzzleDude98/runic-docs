@@ -6,33 +6,78 @@
     }
 
     a {
-        color: #bb86fc;
+        color: #b16fdc;
     }
 
     code, pre {
         background-color: #1e1e1e;
-        color: #dcdcdc;
+        color: #933bcf;
+        padding: 0.2em 0.4em;
+        border-radius: 4px;
+    }
+
+    .markdown-body .highlight pre, .markdown-body pre {
+        padding: 16px;
+        overflow: auto;
+        font-size: 85%;
+        line-height: 1.45;
+        background-color: #1e1e1e;
+        border-radius: 3px;
+    }
+
+    .highlight {
+        background-color: #1e1e1e;
+    }
+
+    .highlight .err {
+        color: #a61717;
+        background-color: #1e1e1e;
+    }
+
+    .highlight .nl {
+        color: #b16fdc;
+        font-weight: bold;
+    }
+
+    .highlight .s2 {
+        color: #a256d5;
+    }
+
+    .highlight .mi {
+        color: #009999;
+    }
+
+    .highlight .kc {
+        color: #5eca5c;
+        font-weight: bold;
+    }
+
+    .markdown-body table code {
+        background-color: #333;
+        color: #e0e0e0;
         padding: 0.2em 0.4em;
         border-radius: 4px;
     }
 
     /* Tables */
     .markdown-body table {
-        background-color: #1e1e1e;
         border-collapse: collapse;
     }
 
     .markdown-body th, .markdown-body td {
+        background-color: #1e1e1e;
+        color: #dcdcdc;
         border: 1px solid #444;
         padding: 8px 12px;
     }
 
-    .markdown-body tr:nth-child(even) {
-        background-color: #2a2a2a;
+    .markdown-body table tr:nth-child(even) td {
+        background-color: #2a2a2a; /* Dark background for even rows */
     }
 
+    /* Make blockquotes readable */
     .markdown-body blockquote {
-        color: #e0e0e0;
+        color: #e0e0e0 !important;
         background-color: #1e1e1e;
         border-left: 4px solid #bb86fc;
         padding: 0.5em 1em;
