@@ -1,3 +1,9 @@
+---
+title: Code Structure Overview
+date: 2025-03-18
+---
+this page will most likely be of no help to you
+
 json contains a [rune type](rune_types.md)
 somehow routes code to the corresponding class
 parses the rest of the data into the class
