@@ -1,11 +1,11 @@
 ---
 title: Home
-date: 2025-03-10
+date: 2025-03-18
 ---
 
 # Welcome to the Runics documentation!
 
-Runics is a minecraft magic mod based around JSON structures. The mod is currently in its infancy, so features are limited. To get started, check out [Rune Types](types/rune_types.md)!
+Runics is a minecraft magic mod based around JSON structures. The mod is currently in its infancy, so features are limited. To get started, check out [How to Use](guides/using.md) or [Rune Types](types/rune_types.md)!
 
 Untested features are listed [here](testing_needed.md).
 ## General information

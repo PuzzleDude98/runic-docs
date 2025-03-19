@@ -1,5 +1,5 @@
 ---
-title: How to use
+title: How to Use
 date: 2025-03-18
 ---
 # Using Runics
